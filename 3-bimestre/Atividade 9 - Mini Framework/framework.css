@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #c8102e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #273644;
+  margin-bottom: 10px;
+}
+
+.quote {
+  color: #c8102e;
+  font-size: 2em;
+  margin-right: 5px;
+}
+
+.line {
+  border-bottom: 2px solid #c8102e;
+}
+
+.author {
+  background: #EFF2F7;
+  padding: 8px 15px;
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #EB5151;
+}
+
+.tag {
+  background: #EB5151;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.content {
+  font-size: 1em;
+  color: #707C8C;
+  line-height: 1.6;
+}
+
+.continue {
+  color: #EB5151;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.continue:hover {
+  text-decoration: underline;
+}
+
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 30px 0;
+}
+
+
+.categories h3 {
+  color: #999;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.tags span {
+  display: inline-block;
+  border: 1px solid #EB5151;
+  color: #EB5151;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.see-all {
+  color: #888;
+  font-size: 0.85em;
+  display: flex;
+  text-decoration: underline;
+  justify-content: end;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {  
+header {
+   padding: 20px;  }  
+main {    
+   padding: 0 15px;  }
+}
